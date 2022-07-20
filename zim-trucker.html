@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Web Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<header class="main-head">
+  <div>
+    <h1>Trucker Flagging</h1>
+ 
+    </div>
+
+  </header>
+<body>
+  <div class="container">
+
+
+      <div class="form-container">
+        <header class="form-head">Trucker Information</header>
+        <form id='truck-form' class="trucker-flag">
+          <p>
+            <label>Zim Requester Name</label>
+          <input id='req-name' type="text" name='req-name'>
+            </p>
+          <p>
+             <label>Date of Request</label>
+          <input type='date' id='req-date' name='req-date' required>
+            </p>
+            
+          <p>
+            <label>Trucker Name</label>
+          <input id='trucker-name' type="text" name='trucker-name'>
+            </p>
+         
+         <p>
+           <label>Phone Number</label>
+          <input id='phone-num' type="tel" name='phone-num' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+           </p>
+
+         <p>
+           <label>Fax Number</label>
+          <input id='fax-num' type="text" name='fax-num'>
+           </p>
+
+            <p>
+           <label>Trucker Email Address</label>
+          <input id='trucker-email' type="text" name='trucker-email'>
+           </p>
+
+           <p>
+           <label>Trucker Tax ID</label>
+          <input id='trucker-tax' type="text" name='trucker-tax'>
+           </p>
+
+           <p>
+           <label>SCAC Code</label>
+          <input id='scac' type="text" name='scac'>
+           </p>
+
+           <p>
+           <label>Case ID Number</label>
+          <input id='case-id' type="text" name='case-id'>
+           </p>
+
+           <p>
+           <label>MC Status Reason Codes</label>
+          <select>
+            <option>New Vendor Creation</option>
+            <option>Insurance</option>
+            <option>Shutout</option>
+            </select>
+           </p>
+
+           
+
+
+           
+
+          </form>
+
+          <header class="form-head">Address Information</header>
+
+          <form id='address-form' class="trucker-flag">
+          <p>
+            <label>Street Number</label>
+          <input id='street-num' type="text" name='street-num'>
+            </p>
+          <p>
+             <label>Street Name</label>
+          <input type='text' id='street-name' name='street-name' required>
+            </p>
+            
+          <p>
+            <label>PO Box (Leave Blank if N/A)</label>
+          <input id='po-box' type="text" name='po-box'>
+            </p>
+         
+         <p>
+           <label>City</label>
+          <input id='city' type="text" name='city'>
+           </p>
+
+         <p>
+           <label>State</label>
+          <input id='trucker-state' type="text" name='trucker-state'>
+           </p>
+
+            <p>
+           <label>ZIP Code</label>
+          <input id='trucker-zip' type="text" name='trucker-zip'>
+           </p>
+
+          
+
+          </form>
+          <input type='button' class='submit' value="Submit" onClick="submitForms()">
+        </div>
+    </div>
+
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
