@@ -35,6 +35,10 @@ label {
   text-align: right;
 }
 
+img {
+  float: right;
+}
+
 form {
   text-align: left;
   display: table;
