@@ -3,6 +3,10 @@ html, body {
   margin:0;
 }
 
+.container {
+  background-image: url("bg.jfif");
+}
+
 .main-head {
   background: #212b60;
   color: #fff;
