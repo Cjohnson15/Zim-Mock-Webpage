@@ -3,12 +3,7 @@ html, body {
   margin:0;
 }
 
-.container {
-  background-image: url("bg.jfif");
-  z-index: 5;
-  opacity: 0.1;
 
-}
 
 
 .main-head {
