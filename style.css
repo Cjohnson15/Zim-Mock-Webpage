@@ -6,7 +6,7 @@ html, body {
 .container {
   background-image: url("bg.jfif");
   z-index: 5;
-  opacity: 10%;
+  opacity: 0.1;
 
 }
 
